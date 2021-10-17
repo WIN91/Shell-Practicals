@@ -1,0 +1,9 @@
+    1  cd unix
+    2  ls -a
+    3  ls -R
+    4  wc exo1.txt
+    5  exo1
+    6  ls
+    7  wc exo1
+    8  wc -l exo1
+    9  history >> exo2.txt
