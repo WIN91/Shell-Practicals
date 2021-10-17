@@ -1,0 +1,35 @@
+    1  mkdir unix
+    2  ls
+    3  cd unix
+    4  ls
+    5  touch foo.txt
+    6  ls
+    7  cp foo.txt foo-copy.txt
+    8  ls
+    9  mv foo-copy.txt foo2.txt
+   10  ls
+   11  mkdir data
+   12  ls
+   13  mv foo2.txt data
+   14  ls
+   15  cd data
+   16  ls
+   17  cd ..
+   18  mkdir new
+   19  ls
+   20  cd data
+   21  pwd
+   22  mv foo2.txt /home/students-asn46/unix/new
+   23  ls
+   24  cd ..
+   25  cd new
+   26  mv foo2.txt /home/students-asn46/unix
+   27  ls
+   28  cd ..
+   29  mv foo2.txt  foo.old.txt
+   30  ls
+   31  rm foo.old.txt
+   32  ls
+   33  rmdir new
+   34  ls
+   35  history >>exo1
